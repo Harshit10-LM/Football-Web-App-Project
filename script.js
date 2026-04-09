@@ -8,3 +8,9 @@ newCard.innerHTML = `
        <p>Rating: 4.9⭐️</p>
    </div>
 `;
+
+
+const root = document.getElementById("root");
+root.appendChild(newCard);
+
+
